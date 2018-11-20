@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/zhoupengkai/Desktop/ios_advance/CocoapodsModule/Module1120/StrumPods1120/StrumPods1120/I/Debug-iphoneos/StrumPods1120.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "StrumPods1120-Swift.h",
+          'external-contents': "/Users/zhoupengkai/Desktop/ios_advance/CocoapodsModule/Module1120/StrumPods1120/StrumPods1120/I/Debug-iphoneos/StrumPods1120.framework/Headers/StrumPods1120-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "StrumPods1120.h",
+          'external-contents': "/Users/zhoupengkai/Desktop/ios_advance/CocoapodsModule/Module1120/StrumPods1120/StrumPods1120/StrumPods1120/StrumPods1120.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zhoupengkai/Desktop/ios_advance/CocoapodsModule/Module1120/StrumPods1120/StrumPods1120/I/Debug-iphoneos/StrumPods1120.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zhoupengkai/Desktop/ios_advance/CocoapodsModule/Module1120/StrumPods1120/StrumPods1120/Build/Intermediates/StrumPods1120.build/Debug-iphoneos/StrumPods1120.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

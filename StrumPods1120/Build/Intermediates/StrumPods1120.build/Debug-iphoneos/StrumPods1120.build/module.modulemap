@@ -1,0 +1,6 @@
+framework module StrumPods1120 {
+  umbrella header "StrumPods1120.h"
+
+  export *
+  module * { export * }
+}
