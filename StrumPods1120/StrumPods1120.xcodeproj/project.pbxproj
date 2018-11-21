@@ -17,7 +17,7 @@
 		6A475AF521A40A4F005FE362 /* StrumPods1120.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrumPods1120.h; sourceTree = "<group>"; };
 		6A475AF621A40A4F005FE362 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A475B0321A41188005FE362 /* NSString+strum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+strum.h"; sourceTree = "<group>"; };
-		6A475B0421A41188005FE362 /* NSString+strum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+strum.m"; sourceTree = "<group>"; };
+		6A475B0421A41188005FE362 /* NSString+strum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+strum.m"; sourceTree = "<group>"; wrapsLines = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
