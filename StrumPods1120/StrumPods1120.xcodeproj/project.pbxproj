@@ -8,16 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		6A475AF721A40A4F005FE362 /* StrumPods1120.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A475AF521A40A4F005FE362 /* StrumPods1120.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A475B0521A41188005FE362 /* NSString+strum.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A475B0321A41188005FE362 /* NSString+strum.h */; };
-		6A475B0621A41188005FE362 /* NSString+strum.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A475B0421A41188005FE362 /* NSString+strum.m */; };
+		6A7DDFD821ABCFD100E9C85E /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7DDFD021ABCFD100E9C85E /* TestViewController.m */; };
+		6A7DDFD921ABCFD100E9C85E /* NSString+strum.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A7DDFD121ABCFD100E9C85E /* NSString+strum.h */; };
+		6A7DDFDA21ABCFD100E9C85E /* swkk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A7DDFD321ABCFD100E9C85E /* swkk.jpg */; };
+		6A7DDFDB21ABCFD100E9C85E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A7DDFD421ABCFD100E9C85E /* 1.jpg */; };
+		6A7DDFDC21ABCFD100E9C85E /* TestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A7DDFD521ABCFD100E9C85E /* TestViewController.h */; };
+		6A7DDFDD21ABCFD100E9C85E /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A7DDFD621ABCFD100E9C85E /* TestViewController.xib */; };
+		6A7DDFDE21ABCFD100E9C85E /* NSString+strum.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7DDFD721ABCFD100E9C85E /* NSString+strum.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6A475AF221A40A4F005FE362 /* StrumPods1120.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StrumPods1120.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A475AF521A40A4F005FE362 /* StrumPods1120.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrumPods1120.h; sourceTree = "<group>"; };
 		6A475AF621A40A4F005FE362 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A475B0321A41188005FE362 /* NSString+strum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+strum.h"; sourceTree = "<group>"; };
-		6A475B0421A41188005FE362 /* NSString+strum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+strum.m"; sourceTree = "<group>"; wrapsLines = 0; };
+		6A7DDFD021ABCFD100E9C85E /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		6A7DDFD121ABCFD100E9C85E /* NSString+strum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+strum.h"; sourceTree = "<group>"; };
+		6A7DDFD321ABCFD100E9C85E /* swkk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = swkk.jpg; sourceTree = "<group>"; };
+		6A7DDFD421ABCFD100E9C85E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		6A7DDFD521ABCFD100E9C85E /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		6A7DDFD621ABCFD100E9C85E /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		6A7DDFD721ABCFD100E9C85E /* NSString+strum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+strum.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +44,7 @@
 		6A475AE821A40A4F005FE362 = {
 			isa = PBXGroup;
 			children = (
+				6A7DDFCF21ABCFD100E9C85E /* StrumReasource */,
 				6A475AF421A40A4F005FE362 /* StrumPods1120 */,
 				6A475AF321A40A4F005FE362 /* Products */,
 			);
@@ -52,10 +63,30 @@
 			children = (
 				6A475AF521A40A4F005FE362 /* StrumPods1120.h */,
 				6A475AF621A40A4F005FE362 /* Info.plist */,
-				6A475B0321A41188005FE362 /* NSString+strum.h */,
-				6A475B0421A41188005FE362 /* NSString+strum.m */,
 			);
 			path = StrumPods1120;
+			sourceTree = "<group>";
+		};
+		6A7DDFCF21ABCFD100E9C85E /* StrumReasource */ = {
+			isa = PBXGroup;
+			children = (
+				6A7DDFD221ABCFD100E9C85E /* image */,
+				6A7DDFD121ABCFD100E9C85E /* NSString+strum.h */,
+				6A7DDFD721ABCFD100E9C85E /* NSString+strum.m */,
+				6A7DDFD521ABCFD100E9C85E /* TestViewController.h */,
+				6A7DDFD021ABCFD100E9C85E /* TestViewController.m */,
+				6A7DDFD621ABCFD100E9C85E /* TestViewController.xib */,
+			);
+			path = StrumReasource;
+			sourceTree = "<group>";
+		};
+		6A7DDFD221ABCFD100E9C85E /* image */ = {
+			isa = PBXGroup;
+			children = (
+				6A7DDFD321ABCFD100E9C85E /* swkk.jpg */,
+				6A7DDFD421ABCFD100E9C85E /* 1.jpg */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -65,8 +96,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A475B0521A41188005FE362 /* NSString+strum.h in Headers */,
+				6A7DDFD921ABCFD100E9C85E /* NSString+strum.h in Headers */,
 				6A475AF721A40A4F005FE362 /* StrumPods1120.h in Headers */,
+				6A7DDFDC21ABCFD100E9C85E /* TestViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +159,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A7DDFDA21ABCFD100E9C85E /* swkk.jpg in Resources */,
+				6A7DDFDD21ABCFD100E9C85E /* TestViewController.xib in Resources */,
+				6A7DDFDB21ABCFD100E9C85E /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +172,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A475B0621A41188005FE362 /* NSString+strum.m in Sources */,
+				6A7DDFD821ABCFD100E9C85E /* TestViewController.m in Sources */,
+				6A7DDFDE21ABCFD100E9C85E /* NSString+strum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
